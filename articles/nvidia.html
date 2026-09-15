@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NVIDIA — Is the GPU the Moat, or Is the Ecosystem the Moat? | Moat & Motive</title>
+<meta name="description" content="When the world is desperate for AI compute, does NVIDIA's extraordinary economics come from superior chips—or from the system surrounding them?">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" fill="%23f2ece0"/><circle cx="16" cy="16" r="11" fill="none" stroke="%2318150f" stroke-width="1.6"/><circle cx="16" cy="16" r="5.5" fill="none" stroke="%2318150f" stroke-width="1.6"/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <a class="mark" href="../index.html">Moat &amp; Motive</a>
+    <nav>
+      <a href="../index.html#essays">Essays</a>
+      <a href="../index.html#about">About</a>
+    </nav>
+  </div>
+</header>
+
+<section class="wrap article-header">
+  <a class="back-link" href="../index.html#essays">&#8592; All essays</a>
+  <div class="article-cover"><svg viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration for NVIDIA"><defs><filter id="grainnvidia" x="-20%" y="-20%" width="140%" height="140%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="24" result="noise"/>
+  <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0"/>
+</filter></defs><rect width="1200" height="520" fill="#9bbf8a"/><path d="M925 322 L848 387 L720 415 L590 388 L515 322 L577 250 L720 231 L852 256 Z" fill="none" stroke="#f4ecdb" stroke-width="3" opacity="0.85"/><rect x="923" y="304" width="5" height="26" fill="#f4ecdb" opacity="0.9"/><rect x="845" y="369" width="5" height="26" fill="#f4ecdb" opacity="0.9"/><rect x="718" y="397" width="5" height="26" fill="#f4ecdb" opacity="0.9"/><rect x="587" y="370" width="5" height="26" fill="#f4ecdb" opacity="0.9"/><rect x="512" y="304" width="5" height="26" fill="#f4ecdb" opacity="0.9"/><rect x="575" y="232" width="5" height="26" fill="#f4ecdb" opacity="0.9"/><rect x="718" y="213" width="5" height="26" fill="#f4ecdb" opacity="0.9"/><rect x="850" y="238" width="5" height="26" fill="#f4ecdb" opacity="0.9"/><rect x="664" y="211" width="8" height="33" fill="#f4ecdb"/><rect x="664" y="400" width="8" height="33" fill="#f4ecdb"/><rect x="609" y="266" width="33" height="8" fill="#f4ecdb"/><rect x="798" y="266" width="33" height="8" fill="#f4ecdb"/><rect x="716" y="211" width="8" height="33" fill="#f4ecdb"/><rect x="716" y="400" width="8" height="33" fill="#f4ecdb"/><rect x="609" y="318" width="33" height="8" fill="#f4ecdb"/><rect x="798" y="318" width="33" height="8" fill="#f4ecdb"/><rect x="768" y="211" width="8" height="33" fill="#f4ecdb"/><rect x="768" y="400" width="8" height="33" fill="#f4ecdb"/><rect x="609" y="370" width="33" height="8" fill="#f4ecdb"/><rect x="798" y="370" width="33" height="8" fill="#f4ecdb"/><rect x="642" y="244" width="156" height="156" rx="12" fill="#f4ecdb"/><rect x="681" y="283" width="78" height="78" fill="none" stroke="#00000030" stroke-width="3" opacity="0.5"/><circle cx="108" cy="389" r="17" fill="#caa07a"/><rect x="88" y="407" width="41" height="48" rx="9" fill="#e9bdb6"/><rect x="90" y="453" width="16" height="48" rx="5" fill="#b8492f"/><rect x="110" y="453" width="16" height="48" rx="5" fill="#b8492f"/><rect x="71" y="412" width="17" height="42" rx="7" fill="#e9bdb6" transform="rotate(14 78 422)"/><circle cx="228" cy="374" r="19" fill="#caa07a"/><rect x="205" y="394" width="45" height="54" rx="10" fill="#f6f1e6"/><rect x="207" y="445" width="18" height="54" rx="6" fill="#5b6b78"/><rect x="230" y="445" width="18" height="54" rx="6" fill="#5b6b78"/><rect x="187" y="400" width="19" height="47" rx="8" fill="#f6f1e6" transform="rotate(14 194 411)"/><circle cx="341" cy="359" r="21" fill="#caa07a"/><rect x="316" y="381" width="50" height="60" rx="11" fill="#f6f1e6"/><rect x="319" y="437" width="20" height="60" rx="6" fill="#2c3e50"/><rect x="344" y="437" width="20" height="60" rx="6" fill="#2c3e50"/><rect x="361" y="362" width="39" height="11" rx="5" fill="#f6f1e6" transform="rotate(-42 361 367)"/><rect width="1200" height="520" filter="url(#grainnvidia)"/></svg></div>
+  <div class="eyebrow-row"><span class="dot"></span> Essay 03 of 12</div>
+  <h1>NVIDIA — Is the GPU the Moat, or Is the Ecosystem the Moat?</h1>
+  <p class="deck">When the world is desperate for AI compute, does NVIDIA's extraordinary economics come from superior chips—or from the system surrounding them?</p>
+</section>
+
+<section class="wrap article-body">
+  <div class="col">
+      <h2>The source of NVIDIA's power</h2>
+      <p>NVIDIA entered the AI boom from an unusual position. Its GPUs were already optimized for parallel computation, but the deeper strategic advantage became the software ecosystem around them. CUDA made NVIDIA hardware familiar to developers, researchers and enterprises, reducing the friction of building applications and models.</p>
+      <p>That creates switching costs that are not captured by comparing chip specifications. A competitor can produce a faster accelerator on a benchmark and still struggle to persuade customers to migrate a mature software stack.</p>
+      <h2>The economics of the moat</h2>
+      <p>NVIDIA's FY2026 revenue reached $215.9 billion, up 65% year on year, with a 71.1% full-year GAAP gross margin. Those economics are evidence of pricing power, but they are not proof that the moat will persist.</p>
+      <p>AI hardware markets are unusually attractive because demand is expanding faster than supply. The strategic question is what happens when supply becomes more abundant and buyers become more sophisticated.</p>
+      <h2>The threats</h2>
+      <p>Hyperscalers are developing custom silicon. AMD is investing aggressively. AI model developers are becoming more sensitive to inference economics. And customers increasingly care about complete data-center systems rather than isolated accelerators.</p>
+      <p>This means NVIDIA's competitive battlefield is moving upward. The company is not simply competing on compute; it is competing on networking, systems, software, inference, developer tools and the ability to make an AI factory work as a whole.</p>
+      <h2>NVIDIA's strategic response</h2>
+      <p>NVIDIA has continued expanding beyond GPUs into networking, complete systems, software, automotive autonomy and robotics. This is a classic adjacent-expansion strategy: move toward the bottlenecks that become important as the installed base of compute grows.</p>
+      <p>The logic is compelling. If the GPU becomes partially commoditized, NVIDIA can protect economics through system-level integration and software. If AI expands into physical machines, the company can reuse its compute and AI expertise in robotics and autonomous vehicles.</p>
+      <h2>The better strategic move</h2>
+      <p>NVIDIA should treat CUDA as the platform and hardware as the monetization layer—not the reverse. The strongest long-term move would be to increase recurring software and infrastructure revenue without undermining hardware demand.</p>
+      <p>It should also deliberately support interoperability where doing so expands the market for NVIDIA orchestration, networking and developer tools. A platform that is too closed can create short-term lock-in but encourage customers to fund alternatives. The optimal strategy is selective openness combined with superior end-to-end economics.</p>
+      <h2>CEO takeaway</h2>
+      <p>The central strategic lesson is that competitive advantage often migrates upward in the value chain. NVIDIA's durable moat is unlikely to be "the fastest chip" forever. It is the ability to make AI systems easier, faster and more economical to build and operate. The company should therefore keep moving from component supplier to platform owner.</p>
+    <div class="sources">
+      <h3>Selected sources</h3>
+      <ul>
+        <li>NVIDIA FY2026 financial results — nvidianews.nvidia.com</li>
+        <li>NVIDIA AI platform and product ecosystem — nvidia.com</li>
+        <li>NVIDIA investor materials — investor.nvidia.com</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="pager">
+    <a class="prev" href="tcs.html">
+      <span class="label">Previous</span>
+      <span class="title">TCS</span>
+    </a>
+    <a class="next" href="palantir.html">
+      <span class="label">Next</span>
+      <span class="title">Palantir</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; Nandini Shankhyan. Moat & Motive.</span>
+    <span>Twelve essays on corporate advantage.</span>
+  </div>
+</footer>
+</body>
+</html>
